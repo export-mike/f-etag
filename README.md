@@ -5,7 +5,7 @@ response and store it in an in memory cache. For a 304 response with a matching 
 response object from the previous 200 response.
 
 ## Why etag caching?
-They're a pain to deal with this
+They're a pain to deal with having to check for 304 and deal with the caching strategy yourself, this is not designed to work between refreshes in the browser. This library is aimed towards browser usage
 
 #install:
   npm i --save efetch

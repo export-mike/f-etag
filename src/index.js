@@ -1,4 +1,4 @@
-import fetch from 'isomoprphic-fetch'
+import fetch from 'isomorphic-fetch'
 const data = {}
 const etags = {}
 

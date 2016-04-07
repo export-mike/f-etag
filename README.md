@@ -13,6 +13,6 @@ They're a pain to deal with this
 #Usage:
 
 ``` Javascript
-  import eFetch from 'efetch';
+  import eFetch from 'f-etag';
   // use eFetch like the normal fetch api.
 ```

@@ -12,8 +12,6 @@ export default (url = null, options = { headers: {} }) => {
       options.headers['If-None-Match'] = etag
     }
 
-    options.headers['Access-Control-Expose-Headers'] = 'ETag'
-
     return fetch(url, options)
     .then((response) => {
       if (response.status === 304) {

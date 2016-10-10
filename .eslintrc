@@ -1,3 +1,7 @@
 {
-  "extends": "rackt"
+  "extends": "rackt",
+  "globals": {
+    "it": true,
+    "describe": true
+  }
 }

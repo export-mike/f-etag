@@ -4,7 +4,7 @@
   "description": "a thin wrapper around fetch api to provide a basic level in memory cache for etags ",
   "main": "lib/index.js",
   "scripts": {
-    "test": "mocha test --compilers js:babel-core/register -r ./test/fetch-mock",
+    "test": "mocha test --compilers js:babel-core/register",
     "prepublish": "npm run build",
     "build": "babel src -d lib"
   },

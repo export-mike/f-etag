@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/export-mike/f-etag.svg?branch=master)](https://travis-ci.org/export-mike/f-etag)
 # f-etag
 
 A thin wrapper around the `fetch` API. For a given 200 response with an ETag header we resolve the promise for the current request and clone the response and store it in an in-memory cache. For a 304 response with a matching ETag header we resolve the same response object from the previous 200 response.

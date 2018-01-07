@@ -1,3 +1,4 @@
+import 'isomorphic-unfetch'
 import { expect } from 'chai'
 import nock from 'nock'
 import fEtag from '../src'
